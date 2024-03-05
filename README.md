@@ -40,7 +40,7 @@ print(passengers)
 passengers.plot(kind='line')
 ```
 ## Log Transformation
-``
+```
 import numpy as np
 import pandas as pd
 data= pd.read_csv('AirPassengers.csv')
@@ -56,7 +56,7 @@ plt.plot(x,y)
 plt.xlabel('Original Data')
 plt.plot(X,Y)
 plt.xlabel('Log- Transformed data')
-``
+```
 
 ### OUTPUT:
 
